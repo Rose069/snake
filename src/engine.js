@@ -34,7 +34,6 @@ $(document).ready(function () {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.fillRect(i * 10, 0, warmSectionSize, warmSectionSize); // create rectangle
             await delay();
-            if (ctx.fillRect(450, 0, warmSectionSize, warmSectionSize)) break;
         }
         for (let i = 0; i < warmSectionSize; i++) {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
